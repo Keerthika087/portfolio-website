@@ -1,0 +1,380 @@
+.col{
+    background-color: rgb(184, 177, 177);
+}
+nav a:visited{
+    color: black;
+}
+
+
+nav ul{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.nav-list a:link{
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px white;
+     background-color: rgb(187, 176, 176);
+     height: 50px; 
+
+}
+nav a:hover{
+    font-size: 27px;
+    color: rgb(182, 171, 163);
+}
+nav ul li{
+    padding: 40px;
+    list-style: none;
+    font-weight: bolder;
+    
+}
+nav ul a{
+    text-decoration: none;
+}
+ nav a:hover{
+    color: brown;
+}
+nav h1 span{
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 55%;
+    background-color: brown;
+    color: whitesmoke;
+}
+hr{
+    width: 800px;
+}
+.img-logo{
+   
+} 
+.info  h1{
+     text-align: center;
+     margin-top: 30px;
+}
+.info h3{
+margin-left: 20px;
+margin-right: 20px;
+  margin-top: 40px;
+  padding: 10px;
+}
+.curent ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.curent ul li{
+     font-size: 20px;
+     list-style: none;
+     font-weight: bolder;
+}
+.goal ul{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goal ul li{
+    font-size: 20px;
+    list-style: none;
+    font-weight: bolder;
+}
+.card a{
+    
+    color: black;
+}
+.projects h1{
+    text-align: center;
+}
+.img-logo a{
+    /* padding: 10px; */
+    margin: 15px;
+}
+#about{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+}
+.ab1{
+   align-self: center;
+   
+}
+.ab1 h1{
+    margin-top: 30px;
+    font-size: 4rem;
+    margin-bottom: 1px;
+}
+.logo-use{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    justify-items: center; 
+    align-items: center;
+}
+.cv{
+    
+    padding: 10px;
+    margin-top: 30px;
+    
+    border-radius: 3px;
+    background-color: rgb(215, 110, 110);
+    color: white;
+    border: none;
+
+}
+.cv:hover{
+    background-color: red;
+    color: white;
+}
+
+#about-logo h1{
+  margin-top: 40px;
+  
+  text-align: center;
+}
+ .logo-use img{
+    
+    margin-top: 40px;
+    height: 60px;
+    width: 60px;
+}
+.learning h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    width: 350px;
+    border: 1px solid black;
+    
+}
+.project-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card img{
+    width: 350px;
+    height: 200px;
+    
+}
+
+#contact h1{
+    text-align: center;
+}
+
+.contacts{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ form input{
+     padding: 7px;
+     width: 300px;
+     
+     
+}
+form label{
+    display: block;
+    padding: 5px;
+}
+form textarea{
+    width: 100%;
+    
+}
+form button{
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.part1 a{
+    text-decoration: none;
+    color: black;
+}
+#msg{
+    height: 70px;
+}
+form button{
+    background-color: rgb(84, 82, 82);
+    color: white;
+}
+form button:hover{
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+footer h1{
+    padding: 10px;
+    
+}
+footer h3{
+     padding-bottom: 20px;  
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.card p{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card h2{
+    
+    text-align: center;
+}
+.card:hover{
+    cursor: pointer;
+}
+
+.main button a{
+    text-decoration: none;
+    color: white;
+}
+.logo:hover{
+    color: azure;
+    text-shadow: 0 0 5px red ,
+                 0 0 25px red,
+                 0 0 50px red,
+                 0 0 100px red
+    
+    ;
+}
+
+
+.burger{
+    height: 23px;
+    width: 23px;
+    display:none;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 3px;
+   
+}
+.burger span{
+    height: 5px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: black;
+   gap: 3px;
+}
+
+
+
+
+
+
+@media (min-width:0px) and (max-width:767px){
+    nav{
+        flex-direction: column;
+       
+        height: 100%;
+    }
+    header{
+        background-color: rgb(184, 177, 177);
+        
+    }
+    .main{
+        margin-top: 40px;
+    }
+    
+    nav ul{
+        
+        padding: 0;
+        margin: 2px;
+        text-align: center;
+        margin-top: 60px;
+        background-color: rgb(187, 176, 176);
+        width: 100%;
+        /* display: none; */
+
+
+
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    .showmenulist{
+         display: block; 
+
+        visibility: visible;
+        opacity: 1;
+    }
+     
+    nav ul li{
+        
+        margin: 4px;
+        padding: 10px;
+    }
+     .logo{
+        position: absolute;
+        top: 3px;
+        left: 25px;
+     }
+    
+
+     
+
+    
+
+    .logo{
+        margin-left: 0px;
+    }
+    .burger{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ab1{
+        
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    #contact{
+        margin-top: 40px;
+    }
+    .nav-list {
+        display: flex;
+    }
+    
+    
+
+
+
+}
